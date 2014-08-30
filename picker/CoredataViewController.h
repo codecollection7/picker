@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CoredataViewController : UIViewController
-
+@interface CoredataViewController : UIViewController<UIPickerViewDelegate,UITextFieldDelegate>
+{
+    
+    __weak IBOutlet UITextField *name;
+}
 @end
